@@ -33,8 +33,34 @@ if (!$user->isLoggedIn()) {
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Login</span></a></li>
-							</ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Main Auditorium</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Oak Room</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Larch Room</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Grace Room</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Mercy Room</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Warehouse</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Foodbank office</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-location-dot">Admin Area</span></a></li>
+								
 						</nav>
 
 				</div>
@@ -51,26 +77,8 @@ if (!$user->isLoggedIn()) {
 
 							<header>
 								<h2> PATLOG </h2>
-								<p>Login here:</p>
 							</header>
-							<form method="post" action="#">
-											<label for="username">Username</label>
-											<input type="text" name="username" id="username" value="" placeholder="Username" />
-											<br />
-											<label for="password">Password</label>
-											<input type="password" name="password" id="password" value="" placeholder="Password" />
-											<br />
-											<input type="hidden" name="token" value="<?php echo Token::generate(); ?>">
-											<input type="submit" value="Login" class="primary" />
-											
-											<br />
-											<br />
-											
-											<?php if (Session::exists("failed")) {
-              								 echo Session::flash("failed");
-           									} ?>
-											</div>
-											</form>
+							
 
 						</div>
 					</section>
